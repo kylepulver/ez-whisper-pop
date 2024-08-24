@@ -1,0 +1,65 @@
+{
+    "id": "ez-whisper-pop",
+    "title": "EZ Whisper Pop",
+    "description": "Edit and update chat messages and rolls.",
+  "authors": [
+    {
+      "name": "kyle pulver",
+      "url": "https://github.com/kylepulver/ez-whisper-pop"
+    }
+  ],
+  "url": "https://github.com/kylepulver/ez-whisper-pop",
+  "version": "1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331",
+    "maximum": "12"
+  },
+  "esmodules": [
+    "whisperpop.js"
+  ],
+  "scripts": [
+  ],
+  "styles": [
+    "whisperpop.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "en.json"
+    }
+  ],
+  "packs": [],
+  "relationships": {
+    "systems": [
+    ],
+    "requires": [
+    ],
+    "optional": [],
+    "flags": {
+      "optional": []
+    }
+  },
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "html",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "styles",
+        "languages"
+      ]
+    }
+  },
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/kylepulver/ez-whisper-pop/main/module.json",
+  "download": "https://github.com/kylepulver/ez-whisper-pop/archive/refs/heads/main.zip",
+  "readme": "https://github.com/kylepulver/ez-whisper-pop",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}
